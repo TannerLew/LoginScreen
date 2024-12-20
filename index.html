@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Resources/CSS/styles.css" />
     <script
       src="https://kit.fontawesome.com/f28f59d791.js"
       crossorigin="anonymous"
@@ -20,7 +20,8 @@
           Access and manage your parking spots effortlessly
         </p>
       </div>
-      <form>
+
+      <form id="loginForm" action="/" method="get">
         <div class="input_container">
           <label for="email"></label>
           <i class="fa-solid fa-envelope"></i>
@@ -45,9 +46,10 @@
         </div>
         <a href="/" class="forgot_password">Forgot Password?</a>
         <div>
-          <input class="submit_btn" type="button" value="Get Started" />
+          <input class="submit_btn" type="submit" value="Get Started" />
         </div>
       </form>
+
       <div class="divider_row">
         <hr />
         <span>or sign in with</span>
@@ -66,5 +68,6 @@
         </div>
       </div>
     </div>
+    <script src="Resources/JS/app.js"></script>
   </body>
 </html>
