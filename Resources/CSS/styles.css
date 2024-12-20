@@ -2,7 +2,6 @@ body {
   background: url("../Images/clouds.jpeg") no-repeat center center fixed;
   background-size: cover;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  justify-content: c;
 }
 
 .login_container {
@@ -76,8 +75,12 @@ body {
   text-decoration: none;
   float: right;
   margin-top: -18px;
+  margin-right: 3.8rem;
   color: black;
-  padding-right: 60px;
+}
+
+.forgot_password:hover {
+  text-decoration: underline;
 }
 
 .divider_row {
@@ -117,5 +120,16 @@ body {
 
 .brand_logins .brand_logo:hover {
   opacity: 0.9;
-  transition: all 0.5s ease;
+  transition: all 0.7s ease;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.signup .signup_link {
+  color: rgb(0, 0, 250);
 }
