@@ -1,0 +1,120 @@
+body {
+    background:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.login_container{
+    background: rgb(24, 161, 229);
+    max-width: 600px; 
+    width: 90%;
+    margin: 2% auto;
+    padding:20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.login_logo{
+    background: white;
+    border-radius: 15px;
+    padding: 0px 5px;
+    font-size: 4rem;
+    opacity: .9;
+}
+
+.discription .signin_text {
+    font-weight: bold;
+    font-size: 40px;
+    
+} 
+
+.discription .signin_disc {
+    font-size: 20px;
+    color:#cde8ff;
+    margin-top: -20px;
+    margin-bottom: 40px;;
+    
+} 
+
+.input_container {
+    position: relative;
+    margin-bottom: 20px;
+    
+  }
+  
+  .input_container i {
+    position: absolute;
+    top: 50%;
+    left: 12%; 
+    transform: translateY(-50%);
+    color: #767676;
+    pointer-events: none; 
+  }
+  
+  .input_container input {
+    width: 80%;   
+    padding: 10px 10px 10px 35px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+
+  .submit_btn{
+    background: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 80%;
+    padding: 8px;
+    margin: 10px;
+  }
+
+  .forgot_password{
+    text-decoration: none;
+    float: right;
+    margin-top: -18px;
+    color:black;
+    padding-right: 60px;
+  }
+
+  .divider_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .divider_row hr {
+    flex: 1;
+    border: none;
+    border-top: 4px dotted #c1c1c1;
+  }
+  
+  .divider_row span {
+    margin: 0 10px;
+    white-space: nowrap;
+    color:#cde8ff;
+  }
+
+  .brand_logins{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 3.3rem;
+    margin-top: 1rem;
+
+  }
+
+  .brand_logins .brand_logo{
+    flex:1;
+    background:white;
+    border-radius: 15px;
+    padding: .3rem 1.8rem;
+    opacity: .5;
+    
+  }
+
+  .brand_logins .brand_logo:hover{
+    opacity: .9;
+    transition: all .5s ease;
+  }
